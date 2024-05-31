@@ -1,0 +1,47 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Russo One;
+}
+
+.container{
+}
+
+.sidenav {
+    padding: 20px;
+    width: 250px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 10px;
+    }
+    
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.logo-text {
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+.menu-title{
+    margin-top: 20px;
+}
+
+.menu-list ul {
+    list-style: none;
+    cursor: pointer;
+}
+.menu-list ul li{
+    padding: 20px;
+}
