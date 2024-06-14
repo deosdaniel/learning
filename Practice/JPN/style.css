@@ -56,16 +56,17 @@ body{
     align-items: center;
     justify-content: space-between;
     padding-left: 2em;
+    flex-shrink: 1;
 }
 .contact-section{
     display: flex;
-    align-items: center;
-    gap: 1rem;
+    align-items:center;
     flex-wrap: wrap;
-    justify-content: right;
+    justify-content: center;
 }
 .header-social {
-font-size: 1em;
+padding-right: 1em;
+padding-left: 1em;
 }
 
 .header-social a{
@@ -87,15 +88,27 @@ color: aliceblue;
 .menu-button img{
     filter: invert();
     height: 2em;
-    width: 4em;
+    width: 5em;
 }
 
 
 
 main{
+    display: flex;
     margin-top: 2em;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
     border: solid;
-    border-color: grey
+    border-color: grey;
+    
+}
+.main-container{
+    display: flex;
+}
+
+.main-container ul{
+    list-style: none;
 }
 footer{
     margin-top: 2em;

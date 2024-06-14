@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+
+:root{
+  --ff: "Geologica", sans-serif;
+  --colorprimary: #000000;
+  --colorsecondary: #ffffff;
+  --coloraccent: #fc5d45;
+  --h1: bold 64px/72px var(--ff); 
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0 10vw auto;
+  background: var(--colorsecondary);
+  color: var(--colorprimary);
+  font-family: var(--ff);
+}
+.header-container{
+  background-color: grey;
+  background-image: url(img/w1200.avif);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-position: 0 -150px;
+  min-height: 400px;
+}
+
+.next-station{
+  color: var(--colorsecondary);
+  max-width: 15vw;
+  min-width: 240px;
+  position: absolute;
+  text-wrap: wrap;
+  margin: 1em;
+  font-size: 0.7em;
+}
+
+.next-station h1{
+  margin-bottom: 0.8rem;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.nav-container{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 7rem;
+}
+
+.nav-list{
+  display: flex;
+  gap: 1.5rem;
+}
+.nav-container .nav-list a{
+  text-decoration: none;
+  color: var(--colorsecondary);
+  cursor: pointer;
+}
+
+
+
+.feedback-section{
+  color: var(--colorsecondary);
+}
+
+.salutation{
+  width: 26rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.buttons{
+}
